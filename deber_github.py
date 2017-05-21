@@ -13,7 +13,7 @@ tk=Tk()
 
 btn = Button(tk, text="Ricardo", command=hello)
 btn2 = Button(tk, text= "Pedro Muñoz", command = peter)
-btn3 = Button(tk, text= "Daniel", command = peter)
+btn3 = Button(tk, text= "Daniel", command = daniel)
 
 btn.pack()
 btn2.pack()
