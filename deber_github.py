@@ -7,6 +7,9 @@ def peter():
 def daniel():
     print("Daniel Acevedo")
 
+def estefa():
+    print("Estefania Aguilar")
+
 from tkinter import *
 
 tk=Tk()
@@ -14,7 +17,7 @@ tk=Tk()
 btn = Button(tk, text="Ricardo", command=hello)
 btn2 = Button(tk, text= "Pedro Muñoz", command = peter)
 btn3 = Button(tk, text= "Daniel", command = daniel)
-btn4 = Button(tk, text= "Estefania", command = Estefania)
+btn4 = Button(tk, text= "Estefania", command = estefa)
 
 btn.pack()
 btn2.pack()
