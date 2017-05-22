@@ -14,10 +14,12 @@ tk=Tk()
 btn = Button(tk, text="Ricardo", command=hello)
 btn2 = Button(tk, text= "Pedro Muñoz", command = peter)
 btn3 = Button(tk, text= "Daniel", command = daniel)
+btn4 = Button(tk, text= "Estefania", command = Estefania)
 
 btn.pack()
 btn2.pack()
 btn3.pack()
+btn4.pack()
 
 
 
